@@ -10,7 +10,7 @@ Designed to work beautifully with the [Karton web component framework](https://g
 Include Karton CSS in your HTML via CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/karton-css/karton.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kartoncss/karton.css" type="text/css">
 ```
 
 Features

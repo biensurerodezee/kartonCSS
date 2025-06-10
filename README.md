@@ -13,6 +13,12 @@ Include Karton CSS in your HTML via CDN:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kartoncss/karton.css" type="text/css">
 ```
 
+Or minified:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kartoncss/karton.min.css" type="text/css">
+```
+
 Features
 
     Classless styling: write semantic HTML without needing extra classes.

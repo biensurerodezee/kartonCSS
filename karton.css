@@ -57,11 +57,13 @@ body {
   max-width: 42em;
   margin: auto;
   color: var(--text-color);
-  background-color: var(--primary-background);
   padding: 16px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(https://cdn.jsdelivr.net/npm/kartoncss/karton-element.svg);
+  background-size: 150px;
+  background-repeat: repeat;
 }
 
 @media (max-width: 684px) {
@@ -357,7 +359,6 @@ main {
 /* Article gets some extra padding */
 article {
   padding: 1rem;
-  background: var(--primary-background);
   border-radius: 0.4rem;
 }
 
@@ -512,7 +513,7 @@ nav a:hover {
 /* Modal/Dialog */
 dialog {
   position: fixed;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
   background: var(--primary-background);
   padding: 2rem;
   border: none;

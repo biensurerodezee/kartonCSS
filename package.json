@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "minify karton.css > karton.min.css && git add . --all && git commit -m new && surge ./ && npm publish"
+    "deploy": "minify karton.css > karton.min.css && git add . --all && git commit -m new || true && surge ./ && npm publish"
   },
   "keywords": ["karton", "element", "web-component", "framework"],
   "author": "Biensure",

@@ -2,7 +2,7 @@
 
 :root {
   --primary-background: #fdfaf6;
-  --secondary-background: #e7e2cf;
+  --secondary-background: #fddabb;
   --text-color: #3e2e1e;
   --primary-color: #b07d56;
   --secondary-color: #d0a675;
@@ -12,7 +12,7 @@
 
 .dark {
   --primary-background: #2b2a27;
-  --secondary-background: #3d3a36;
+  --secondary-background: #484540;
   --text-color: #e2d9c8;
   --primary-color: #c3a36e;
   --secondary-color: #a6865b;
@@ -23,7 +23,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-background: #2b2a27;
-    --secondary-background: #3d3a36;
+    --secondary-background: #484540;
     --text-color: #e2d9c8;
     --primary-color: #c3a36e;
     --secondary-color: #a6865b;
@@ -315,6 +315,7 @@ header {
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--primary-color);
   z-index: 100;
+  text-align: center;
 }
 
 /* Sticky footer */

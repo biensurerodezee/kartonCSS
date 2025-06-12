@@ -1,6 +1,6 @@
 {
   "name": "kartoncss",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "karton.css",
   "scripts": {
     "dev": "vite",

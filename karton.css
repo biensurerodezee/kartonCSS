@@ -287,14 +287,12 @@ input:valid,
 textarea:valid,
 select:valid {
   border-color: var(--primary-color);
-  background-color: #f0f5ef; /* light greenish background */
 }
 
 input:invalid,
 textarea:invalid,
 select:invalid {
   border-color: #d54e53; /* warm red */
-  background-color: #f9e6e5; /* pale red background */
 }
 
 input:focus:invalid,

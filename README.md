@@ -1,7 +1,7 @@
 # Karton CSS
 
 A lightweight, classless CSS framework inspired by cardboard-style design and Sakura CSS.  
-Designed to work beautifully with the [Karton web component framework](https://github.com/biensurerodezee/kartoncss).
+Designed to work beautifully with the [KartonJS web component framework](https://github.com/biensurerodezee/kartoncss).
 
 ---
 
@@ -38,8 +38,7 @@ Or minified:
 
 # Example 
 
-[Surge Live Example](https://kartoncss.surge.sh)
-[JSDelivr Live Example](https://cdn.jsdelivr.net/npm/kartoncss/index.html)
+[Surge Live Example](https://kartoncss.surge.sh)  
 
 ```html
 <!DOCTYPE html>
